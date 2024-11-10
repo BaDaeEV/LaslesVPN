@@ -66,7 +66,16 @@ header {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 25px 40px #f5383857;
+    border:none;
 
+}
+
+.button:hover {
+    transition: all 120ms ease-in;
+    color:#F53838;
+    background-color: var(--whiteColor);
+    border:2px solid #F53838;
+    box-sizing: border-box;
 }
 
 header > img {
@@ -106,6 +115,7 @@ ul {
     border: 1px solid #F53855;
     border-radius: 50px;
     font-weight: 550;
+    cursor: pointer;
 }
 
 h1 {
@@ -332,6 +342,7 @@ h1 > span {
     padding: 17px 63px;
     border: 2px solid #F53838;
     border-radius: 50px;
+    box-sizing: border-box;
 }
 
 .plan-button:hover {
@@ -339,6 +350,7 @@ h1 > span {
     background-color: #F53838;
     color: #fff;
     transition: all .25s;
+    border: 2px solid #F53838;
 }
 
 #tile-5 {
